@@ -1,16 +1,26 @@
-# Introduction to GitHub
+# Deepfake Detector
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This project aims to detect whether an image or video is a deepfake or real using deep learning.
 
-Hey mukesh76650!
+## Features
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+- Analyze images to detect deepfakes.
+- Analyze videos to detect deepfakes (frame by frame).
+- (Optional) Simple web interface for uploading and checking media.
 
-Remember, it's self-paced so feel free to take a break! ☕️
+## Getting Started
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/mukesh76650/deep-fake/issues/1)
+1. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+2. Run detection (see usage in src/image_detector.py and src/video_detector.py).
 
----
+## Project Structure
+- `src/` - Source code for image and video deepfake detection
+- `models/` - Pretrained or saved models
+- `data/` - Example/test datasets
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+## Future Work
+- Improve detection accuracy
+- Add GUI/web interface
